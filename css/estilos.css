@@ -79,13 +79,6 @@ p {
     width: 100%;
 }
 
-/* .main-index {
-    height: 1200px;
-    background-position: center;
-    background-size: cover;
-    padding: 25px 25px;
-} */
-
 .hxindex {
     display: flex;
     flex-direction: column;
