@@ -8,8 +8,9 @@
 h1 {
     letter-spacing: 10px;
     text-align: center;
-    font-weight: 4000px;
+    font-weight: 900;
     font-size: 80px;
+    color: #a74561;
 }
 
 .menu-principal {
@@ -60,6 +61,10 @@ p {
     font-size: x-large;
 }
 
+.navcenter ul li a {
+    justify-content: center;
+}
+
 /* Estilos index */
 
 .header-section-index {
@@ -74,21 +79,17 @@ p {
     width: 100%;
 }
 
-.main-index {
-    background: url(https://osn.inba.gob.mx/images/palciofoto.jpeg);
+/* .main-index {
     height: 1200px;
     background-position: center;
     background-size: cover;
     padding: 25px 25px;
-}
+} */
 
 .hxindex {
     display: flex;
     flex-direction: column;
     font-weight: bolder;
-    color: whitesmoke;
-    background: rgba(0, 0, 0, 0.5);
-    text-shadow: rgb(57, 57, 110);
     padding: 5px;
 }
 
@@ -126,6 +127,7 @@ p {
 }
 
 .navfooter {
+    display: block;
     text-align: center;
     font-size: large;
 }
@@ -280,14 +282,14 @@ p {
     padding: 20px 100px 50px 100px;
     text-align: center;
     font-size: medium;
-    
+
 }
 
 .img-bots {
     height: 100%;
     width: 100%;
     object-fit: contain;
-    }
+}
 
 .p-bost {
     font-size: 18px;
@@ -311,7 +313,7 @@ p {
     }
 
     .cultura-video {
-        width: 80%;
+        width: 100%;
     }
 
     .menu-principal {
@@ -319,9 +321,12 @@ p {
     }
 
     .navfooter {
+        display: block;
         font-size: small;
     }
 }
+
+
 
 @media (max-width: 768px) {
     .menu-principal {
@@ -331,12 +336,13 @@ p {
     .navfooter {
         display: none;
     }
+
     .p-bost {
-        font-size:15px;
+        font-size: 15px;
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 500px) {
     .footer-logo {
         width: 100%;
     }
@@ -382,8 +388,7 @@ p {
     }
 
     .navfooter {
-        font-size: 11px;
-        text-align: left;
+        display: none;
     }
 
     .footer-link {
@@ -454,10 +459,13 @@ p {
     .div-contacto {
         width: 320px;
     }
+
     .div-parrafo {
         font-size: smaller;
     }
+
     .p-bost {
         font-size: 12px;
     }
+    
 }
