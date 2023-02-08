@@ -1,0 +1,72 @@
+
+h1 {
+	letter-spacing: 10px;
+	text-align: center;
+	font-weight: 900;
+	font-size: 80px;
+	color: #a74561;
+}
+
+a {
+	margin: 25px;
+	text-decoration: none;
+	color: black;
+	&:hover {
+		text-decoration: underline #a74561 2px;
+	}
+}
+li {
+	display: inline-block;
+}
+
+.menu-principal {
+	text-align: center;
+	font-size: x-large;
+}
+
+.navcenter {
+	ul {
+		li {
+			a {
+				justify-content: center;
+			}
+		}
+	}
+}
+.header-section-index {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 25%;
+}
+.logo {
+	height: 100%;
+	width: 100%;
+}
+.hxindex {
+	display: flex;
+	flex-direction: column;
+	font-weight: bolder;
+	padding: 5px;
+}
+
+.header-section {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.logo1-titulo {
+	background-image: url(../assets/img-suculenta-der.png);
+	background-size: cover;
+	background-position: center;
+	height: 200px;
+	width: 150px;
+}
+.logo2-titulo {
+	background-image: url(../assets/img-suculenta-izq.png);
+	background-size: cover;
+	background-position: center;
+	height: 200px;
+	width: 150px;
+}
+

@@ -1,0 +1,37 @@
+
+.redes {
+	padding: 25px 25px 0px 25px;
+	text-align: center;
+}
+
+.footer {
+	height: 310px;
+	padding: 25px;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	padding-top: 15px;
+}
+.footer-menu-redes {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+}
+.footer-logo {
+	height: 100%;
+	width: 100%;
+	margin-top: 25px;
+}
+.footer-link-images {
+	width: 100%;
+}
+.footer-link {
+	display: inline-block;
+	width: 100px;
+}
+.navfooter {
+	display: block;
+	text-align: center;
+	font-size: large;
+}
