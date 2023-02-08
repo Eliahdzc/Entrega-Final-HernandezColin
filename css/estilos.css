@@ -5,43 +5,13 @@
     margin: 0px 0px;
 }
 
+
 h1 {
     letter-spacing: 10px;
     text-align: center;
     font-weight: 900;
     font-size: 80px;
     color: #a74561;
-}
-
-.menu-principal {
-    text-align: center;
-    font-size: x-large;
-}
-
-.redes {
-    padding: 25px 25px 0px 25px;
-    text-align: center;
-}
-
-a {
-    margin: 25px;
-}
-
-li a {
-    margin: 20px;
-}
-
-a:hover {
-    text-decoration: underline #a74561 2px;
-}
-
-li {
-    display: inline-block;
-}
-
-a {
-    text-decoration: none;
-    color: black;
 }
 
 h2 {
@@ -56,9 +26,33 @@ h3 {
     padding: 15px;
 }
 
+a {
+    margin: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline #a74561 2px;
+}
+
+li {
+    display: inline-block;
+}
+
 p {
     text-align: center;
     font-size: x-large;
+}
+
+.menu-principal {
+    text-align: center;
+    font-size: x-large;
+}
+
+.redes {
+    padding: 25px 25px 0px 25px;
+    text-align: center;
 }
 
 .navcenter ul li a {
@@ -88,6 +82,17 @@ p {
 
 .p-index {
     font-size: 20px;
+}
+
+.btn-primary {
+    background-color: #a74561;
+    border-color: #a74561;
+}
+
+.btn-primary:hover {
+    background-color: #f7c0d0;
+    border-color: #f7c0d0;
+    color: #a74561;
 }
 
 /* Estilo Footer */
@@ -166,19 +171,26 @@ p {
     flex-wrap: wrap;
 }
 
-.main-section-contacto {
-    padding: 0px 0px 120px 0px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+
+
+.link-lugares {
+    border-radius: 10px;
+    padding: 15px 30px;
+    background-color: #a74561;
+    border-color: #a74561;
+    color: #f7c0d0;
 }
 
+.link-lugares:hover {
+    background-color: #f7c0d0;
+    border-color: #f7c0d0;
+    color: #a74561;
+}
 
 .zonas {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .zonas-img {
@@ -189,7 +201,6 @@ p {
     background-image: url(../assets/chichenitza-1.jpg);
     background-position: center;
     background-size: cover;
-    display: flex;
 }
 
 .pueblos {
@@ -206,7 +217,6 @@ p {
     background-image: url(../assets/img-hidalgo.jpg);
     background-position: center;
     background-size: cover;
-    display: flex;
 }
 
 .playas {
@@ -223,7 +233,6 @@ p {
     background-image: url(../assets/img-playa-delfines-cancun.jpg);
     background-position: center;
     background-size: cover;
-    display: flex;
 }
 
 .cultura-video {
@@ -232,6 +241,13 @@ p {
 
 .cultura-video-small {
     display: none;
+}
+
+.main-section-contacto {
+    padding: 0px 0px 120px 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .imagencontacto {
@@ -244,44 +260,6 @@ p {
     background-size: cover;
 }
 
-/* Vamos a añadir esto 👇 */
-
-.menu-principalprueba {
-    text-align: center;
-    font-size: x-large;
-}
-
-.header-sectionprueba {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    bottom: 0;
-}
-
-.section-lugares {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.div-lugares {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.div-parrafo {
-    display: flex;
-    padding: 20px 100px 50px 100px;
-    text-align: center;
-    font-size: medium;
-
-}
-
 .img-bots {
     height: 100%;
     width: 100%;
@@ -291,6 +269,8 @@ p {
 .p-bost {
     font-size: 18px;
 }
+
+/* Media Querys */
 
 @media (max-width: 1024px) {
     .footer-logo {
@@ -343,6 +323,8 @@ p {
     }
 }
 
+
+
 @media (max-width: 500px) {
     .footer-logo {
         width: 100%;
@@ -392,7 +374,7 @@ p {
         height: 500px;
     }
 
-    
+
     .navfooter {
         display: none;
     }
@@ -473,5 +455,5 @@ p {
     .p-bost {
         font-size: 12px;
     }
-    
+
 }
