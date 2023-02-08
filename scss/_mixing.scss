@@ -1,0 +1,22 @@
+
+@mixin pag-lugares {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cultura {
+	@include pag-lugares;
+}
+
+.zonas {
+	@include pag-lugares;
+}
+
+.pueblos {
+	@include pag-lugares;
+}
+
+.playas {
+	@include pag-lugares;
+}

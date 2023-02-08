@@ -12,11 +12,6 @@
 	}
 }
 
-.cultura {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
 .main-section {
 	padding: 0px 0px 120px 0px;
 	display: flex;
@@ -35,11 +30,7 @@
 		color: #a74561;
 	}
 }
-.zonas {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
+
 .zonas-img {
 	border: 2px solid white;
 	height: 450px;
@@ -49,11 +40,7 @@
 	background-position: center;
 	background-size: cover;
 }
-.pueblos {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
+
 .pueblos-img {
 	border: 2px solid white;
 	height: 450px;
@@ -63,11 +50,7 @@
 	background-position: center;
 	background-size: cover;
 }
-.playas {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
+
 .playas-img {
 	border: 2px solid white;
 	height: 450px;

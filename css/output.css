@@ -1,3 +1,4 @@
+/* Estilos Generales */
 .letrabody {
   font-family: "Raleway", sans-serif;
   margin: 0px 0px;
@@ -18,6 +19,40 @@ h3 {
 p {
   text-align: center;
   font-size: x-large;
+}
+
+.formato-img, .imagencontacto, .playas-img, .pueblos-img, .zonas-img {
+  border: 2px solid white;
+  height: 450px;
+  width: 400px;
+}
+
+.zonas-img {
+  margin: 50px;
+  background-image: url(../assets/chichenitza-1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.pueblos-img {
+  margin: 50px;
+  background-image: url(../assets/img-hidalgo.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.playas-img {
+  margin: 50px;
+  background-image: url(../assets/img-playa-delfines-cancun.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.imagencontacto {
+  margin: 20px 50px 25px 50px;
+  background-image: url(../assets/mariachi.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 h1 {
@@ -105,12 +140,6 @@ li {
   color: #a74561;
 }
 
-.cultura {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .main-section {
   padding: 0px 0px 120px 0px;
   display: flex;
@@ -131,12 +160,6 @@ li {
   color: #a74561;
 }
 
-.zonas {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .zonas-img {
   border: 2px solid white;
   height: 450px;
@@ -147,12 +170,6 @@ li {
   background-size: cover;
 }
 
-.pueblos {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .pueblos-img {
   border: 2px solid white;
   height: 450px;
@@ -161,12 +178,6 @@ li {
   background-image: url(../assets/img-hidalgo.jpg);
   background-position: center;
   background-size: cover;
-}
-
-.playas {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .playas-img {
@@ -291,7 +302,7 @@ li {
   .main-index {
     height: 500px;
   }
-  .navfooter {
+  .footer-menu-redes .navfooter {
     display: none;
   }
   .footer-link {
@@ -353,6 +364,7 @@ li {
     font-size: 12px;
   }
 }
+/* Footer */
 .redes {
   padding: 25px 25px 0px 25px;
   text-align: center;
@@ -393,6 +405,30 @@ li {
   display: block;
   text-align: center;
   font-size: large;
+}
+
+.cultura {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.zonas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pueblos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.playas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* Estilos Generales */
