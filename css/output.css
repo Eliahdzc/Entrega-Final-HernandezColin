@@ -23,7 +23,8 @@ p {
 
 /* Extends */
 .formato-img, .imagencontacto, .playas-img, .pueblos-img, .zonas-img {
-  border: 2px solid white;
+  border: 2px solid #a74561;
+  border-radius: 10px;
   height: 450px;
   width: 400px;
 }
