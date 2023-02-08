@@ -1,4 +1,4 @@
-/* Variables */ /* Estilos Generales */
+/*Importaciones a Partials */ /* Variables */ /* Estilos Generales */
 .letrabody {
   font-family: "Raleway", sans-serif;
   margin: 0px 0px;
@@ -220,7 +220,7 @@ li {
   .menu-principal {
     font-size: small;
   }
-  .navfooter {
+  .footer-menu-redes .navfooter {
     display: none;
   }
   .p-bost {
@@ -265,9 +265,6 @@ li {
   }
   .main-index {
     height: 500px;
-  }
-  .footer-menu-redes .navfooter {
-    display: none;
   }
   .footer-link {
     width: 50px;
@@ -395,11 +392,5 @@ li {
   flex-direction: column;
   align-items: center;
 }
-
-/* Estilos Generales */
-/* Estilos index */
-/* Estilo Footer */
-/* Estilos paginas */
-/* Media Querys */
 
 /*# sourceMappingURL=output.css.map */

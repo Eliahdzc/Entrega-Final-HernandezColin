@@ -5,7 +5,7 @@ h1 {
 	text-align: center;
 	font-weight: 900;
 	font-size: 80px;
-	color: #a74561;
+	color: $dark-pink;
 }
 
 a {
@@ -13,7 +13,7 @@ a {
 	text-decoration: none;
 	color: black;
 	&:hover {
-		text-decoration: underline #a74561 2px;
+		text-decoration: underline $dark-pink 2px;
 	}
 }
 li {

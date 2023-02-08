@@ -4,12 +4,12 @@
 	font-size: 20px;
 }
 .btn-primary {
-	background-color: #a74561;
-	border-color: #a74561;
+	background-color: $dark-pink;
+	border-color: $dark-pink;
 	&:hover {
-		background-color: #f7c0d0;
-		border-color: #f7c0d0;
-		color: #a74561;
+		background-color: $light-pink;
+		border-color: $light-pink;
+		color: $dark-pink;
 	}
 }
 
@@ -22,45 +22,16 @@
 .link-lugares {
 	border-radius: 10px;
 	padding: 15px 30px;
-	background-color: #a74561;
-	border-color: #a74561;
-	color: #f7c0d0;
+	background-color: $dark-pink;
+	border-color: $dark-pink;
+	color: $light-pink;
 	&:hover {
-		background-color: #f7c0d0;
-		border-color: #f7c0d0;
-		color: #a74561;
+		background-color: $light-pink;
+		border-color: $light-pink;
+		color: $dark-pink;
 	}
 }
 
-// .zonas-img {
-// 	border: 2px solid white;
-// 	height: 450px;
-// 	width: 400px;
-// 	margin: 50px;
-// 	background-image: url(../assets/chichenitza-1.jpg);
-// 	background-position: center;
-// 	background-size: cover;
-// }
-
-// .pueblos-img {
-// 	border: 2px solid white;
-// 	height: 450px;
-// 	width: 400px;
-// 	margin: 50px;
-// 	background-image: url(../assets/img-hidalgo.jpg);
-// 	background-position: center;
-// 	background-size: cover;
-// }
-
-// .playas-img {
-// 	border: 2px solid white;
-// 	height: 450px;
-// 	width: 400px;
-// 	margin: 50px;
-// 	background-image: url(../assets/img-playa-delfines-cancun.jpg);
-// 	background-position: center;
-// 	background-size: cover;
-// }
 .cultura-video {
 	display: block;
 }
@@ -73,15 +44,7 @@
 	justify-content: center;
 	flex-wrap: wrap;
 }
-// .imagencontacto {
-// 	border: 2px solid white;
-// 	height: 450px;
-// 	width: 400px;
-// 	margin: 20px 50px 25px 50px;
-// 	background-image: url(../assets/mariachi.jpg);
-// 	background-position: center;
-// 	background-size: cover;
-// }
+
 .img-bots {
 	height: 100%;
 	width: 100%;
