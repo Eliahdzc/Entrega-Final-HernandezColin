@@ -21,42 +21,6 @@ p {
   font-size: x-large;
 }
 
-/* Extends */
-.formato-img, .imagencontacto, .playas-img, .pueblos-img, .zonas-img {
-  border: 2px solid #a74561;
-  border-radius: 10px;
-  height: 450px;
-  width: 400px;
-}
-
-.zonas-img {
-  margin: 50px;
-  background-image: url(../assets/chichenitza-1.jpg);
-  background-position: center;
-  background-size: cover;
-}
-
-.pueblos-img {
-  margin: 50px;
-  background-image: url(../assets/img-hidalgo.jpg);
-  background-position: center;
-  background-size: cover;
-}
-
-.playas-img {
-  margin: 50px;
-  background-image: url(../assets/img-playa-delfines-cancun.jpg);
-  background-position: center;
-  background-size: cover;
-}
-
-.imagencontacto {
-  margin: 20px 50px 25px 50px;
-  background-image: url(../assets/mariachi.jpg);
-  background-position: center;
-  background-size: cover;
-}
-
 /* Header */
 h1 {
   letter-spacing: 10px;
@@ -187,6 +151,49 @@ li {
 
 .p-bost {
   font-size: 18px;
+}
+
+/* Footer */
+.redes {
+  padding: 25px 25px 0px 25px;
+  text-align: center;
+}
+
+.footer {
+  height: 310px;
+  padding: 25px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-top: 15px;
+}
+
+.footer-menu-redes {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+
+.footer-logo {
+  height: 100%;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.footer-link-images {
+  width: 100%;
+}
+
+.footer-link {
+  display: inline-block;
+  width: 100px;
+}
+
+.navfooter {
+  display: block;
+  text-align: center;
+  font-size: large;
 }
 
 /* Media Queries */
@@ -326,47 +333,40 @@ li {
     font-size: 12px;
   }
 }
-/* Footer */
-.redes {
-  padding: 25px 25px 0px 25px;
-  text-align: center;
+/* Extends */
+.formato-img, .imagencontacto, .playas-img, .pueblos-img, .zonas-img {
+  border: 2px solid #a74561;
+  border-radius: 10px;
+  height: 450px;
+  width: 400px;
 }
 
-.footer {
-  height: 310px;
-  padding: 25px;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  padding-top: 15px;
+.zonas-img {
+  margin: 50px;
+  background-image: url(../assets/chichenitza-1.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
-.footer-menu-redes {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
+.pueblos-img {
+  margin: 50px;
+  background-image: url(../assets/img-hidalgo.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
-.footer-logo {
-  height: 100%;
-  width: 100%;
-  margin-top: 25px;
+.playas-img {
+  margin: 50px;
+  background-image: url(../assets/img-playa-delfines-cancun.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
-.footer-link-images {
-  width: 100%;
-}
-
-.footer-link {
-  display: inline-block;
-  width: 100px;
-}
-
-.navfooter {
-  display: block;
-  text-align: center;
-  font-size: large;
+.imagencontacto {
+  margin: 20px 50px 25px 50px;
+  background-image: url(../assets/mariachi.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 /* Mixings */
