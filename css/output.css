@@ -136,6 +136,17 @@ li {
   display: none;
 }
 
+.imagencontacto {
+  border: 2px solid #a74561;
+  border-radius: 10px;
+  height: 450px;
+  width: 400px;
+  margin: 20px 50px 25px 50px;
+  background-image: url(../assets/mariachi.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
 .main-section-contacto {
   padding: 0px 0px 120px 0px;
   display: flex;
@@ -334,7 +345,7 @@ li {
   }
 }
 /* Extends */
-.formato-img, .imagencontacto, .playas-img, .pueblos-img, .zonas-img {
+.formato-img, .playas-img, .pueblos-img, .zonas-img {
   border: 2px solid #a74561;
   border-radius: 10px;
   height: 450px;
@@ -358,13 +369,6 @@ li {
 .playas-img {
   margin: 50px;
   background-image: url(../assets/img-playa-delfines-cancun.jpg);
-  background-position: center;
-  background-size: cover;
-}
-
-.imagencontacto {
-  margin: 20px 50px 25px 50px;
-  background-image: url(../assets/mariachi.jpg);
   background-position: center;
   background-size: cover;
 }

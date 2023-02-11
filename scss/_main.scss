@@ -38,6 +38,18 @@
 .cultura-video-small {
 	display: none;
 }
+
+.imagencontacto {
+    border: 2px solid $dark-pink;
+    border-radius: 10px;
+    height: 450px;
+    width: 400px;
+    margin: 20px 50px 25px 50px;
+    background-image: url(../assets/mariachi.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 .main-section-contacto {
 	padding: 0px 0px 120px 0px;
 	display: flex;

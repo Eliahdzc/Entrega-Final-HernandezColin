@@ -31,10 +31,3 @@
 	background-size: $bg-zs;
 }
 
-.imagencontacto {
-    @extend .formato-img;
-	margin: 20px 50px 25px 50px;
-	background-image: url(../assets/mariachi.jpg);
-	background-position: $bg-po;
-	background-size: $bg-zs;
-}
