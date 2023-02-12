@@ -33,6 +33,19 @@
 		display: block;
 		font-size: small;
 	}
+	.nav-mapa-index {
+		display: block;
+		padding: 10px;
+		list-style: circle;
+		text-align: center;
+		font-size: 20px;
+	}
+	
+	.mapa-sitio-titulos {
+		font-size: 25px;
+		font-weight: bolder;
+	}
+
 }
 
 @media (max-width: 768px) {
@@ -48,6 +61,18 @@
 
 	.p-bost {
 		font-size: 15px;
+	}
+
+	.nav-mapa-index {
+		display: block;
+		list-style: circle;
+		text-align: center;
+		font-size: 10px;
+	}
+	
+	.mapa-sitio-titulos {
+		font-size: 15px;
+		font-weight: bolder;
 	}
 }
 

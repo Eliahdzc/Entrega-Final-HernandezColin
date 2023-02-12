@@ -3,8 +3,6 @@
 .formato-img {
     border: 2px solid $dark-pink;
     border-radius: 10px;
-	height: 450px;
-	width: 400px;
 }
 
 .zonas-img {
@@ -21,6 +19,7 @@
 	background-image: url(../assets/img-hidalgo.jpg);
 	background-position: $bg-po;
 	background-size: $bg-zs;
+	
 }
 
 .playas-img {
@@ -29,5 +28,6 @@
 	background-image: url(../assets/img-playa-delfines-cancun.jpg);
 	background-position: $bg-po;
 	background-size: $bg-zs;
+
 }
 
