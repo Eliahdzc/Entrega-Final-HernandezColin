@@ -5,14 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Playas Hermosas</title>
+    <title>Playas Hermosas | Folklorisimo</title>
+    <meta name="description" content="Realiza un viaje virtual a las principales y mas hermosas playas de México.">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link
         href="https://fonts.googleapis.com/css2?family=Belleza&family=Krub:wght@200;500;700&family=Raleway:wght@100;400;600&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="../css/estilos.css">
+        <link rel="stylesheet" href="../css/output.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
 </head>
@@ -27,30 +28,47 @@
             <div class="logo2-titulo"></div>
         </section>
 
-        <div>
-            <nav class="menu-principal">
-                <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="lugares-magicos.html">Lugares Mágicos</a></li>
-                    <li><a href="cultura.html">Cultura</a></li>
-                    <li><a href="gastronomia.html">Gastronomia</a></li>
-                    <li><a href="interactivo.html">Espacio Interactivo</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-
-        </div>
+        <nav class="navbar navbar-expand-lg navcenter" style="background-color: #f7c0d0;">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link fs-4 fw-semibold" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-4 fw-semibold" href="./lugares-magicos.html">Lugares Mágicos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-4 fw-semibold" href="./cultura.html">Cultura</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-4 fw-semibold" href="./gastronomia.html">Gastronomía</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-4 fw-semibold" href="./interactivo.html">Espacio Interactivo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-4 fw-semibold" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
     </header>
 
-   
+
 
     <div class="container marketing">
 
         <hr class="featurette-divider">
 
-        <div class="row featurette">
-            <div class="col-md-7">
+        <div class="row featurette my-5">
+            <div class="col-md-7" id="playa-norte">
                 <h2 class="featurette-heading fw-normal lh-1">Playa Norte, Isla Mujeres<span class="text-muted"></span>
                 </h2>
                 <p class="p-bost">Hay quienes catalogan a esta playa como la más hermosa de México y no les falta
@@ -61,14 +79,15 @@
                     femeninas, que lo bautizaron como Isla Mujeres.</p>
             </div>
             <div class="col-md-5">
-                <img class="img-bots" src="../assets/playa-norte-islamujeres.jpg" alt="playa-norte-islamujeres">
+                <img class="img-bots rounded-4 object-fit-cover" src="../assets/playa-norte-islamujeres.jpg"
+                    alt="playa-norte-islamujeres">
             </div>
         </div>
 
         <hr class="featurette-divider">
 
-        <div class="row featurette">
-            <div class="col-md-7 order-md-2">
+        <div class="row featurette my-5">
+            <div class="col-md-7 order-md-2" id="mazunte">
                 <h2 class="featurette-heading fw-normal lh-1">Mazunte, Oaxaca<span class=></span></h2>
                 <p class="p-bost">El mazunte es un cangrejo azul que vive un este lugar oaxaqueño, pero la especie
                     más
@@ -87,14 +106,15 @@
                     haca el mar en busca de la vida en libertad.</p>
             </div>
             <div class="col-md-5 order-md-1">
-                <img class=img-bots src="../assets/mazunte-oaxaca.jpg" alt="mazunte-oaxaca">
+                <img class="img-bots rounded-4 object-fit-cover" src="../assets/mazunte-oaxaca.jpg"
+                    alt="mazunte-oaxaca">
             </div>
         </div>
 
         <hr class="featurette-divider">
 
-        <div class="row featurette">
-            <div class="col-md-7">
+        <div class="row featurette my-5">
+            <div class="col-md-7" id="isla-lobos">
                 <h2 class="featurette-heading fw-normal lh-1">Isla de Lobos, Veracruz<span class="text-muted"></span>
                 </h2>
                 <p class="p-bost">A 75 minutos de la costa continental veracruzana está esta fantástica isla, de
@@ -107,14 +127,15 @@
                     Tanhuijo, y en todos hay cosas interesantes que ver.</p>
             </div>
             <div class="col-md-5">
-                <img class="img-bots" src="../assets/isla-lobos-veracruz.jpg" alt="isla-lobos-veracruz">
+                <img class="img-bots rounded-4 object-fit-cover" src="../assets/isla-lobos-veracruz.jpg"
+                    alt="isla-lobos-veracruz">
             </div>
         </div>
 
         <hr class="featurette-divider">
 
-        <div class="row featurette">
-            <div class="col-md-7 order-md-2">
+        <div class="row featurette my-5">
+            <div class="col-md-7 order-md-2" id="akumal">
                 <h2 class="featurette-heading fw-normal lh-1">Akumal, Quintana Roo<span class=></span></h2>
                 <p class="p-bost">Este conjunto de 4 pequeñas bahías de la península yucateca, con sus vastas
                     plantaciones de cocoteros,
@@ -127,14 +148,15 @@
                     practicantes del snorkel y el buceo.</p>
             </div>
             <div class="col-md-5 order-md-1">
-                <img class=img-bots src="../assets/akumal-quintanaroo.jpg" alt="akumal-quintanaroo">
+                <img class="img-bots rounded-4 object-fit-cover" src="../assets/akumal-quintanaroo.jpg"
+                    alt="akumal-quintanaroo">
             </div>
         </div>
 
         <hr class="featurette-divider">
 
-        <div class="row featurette">
-            <div class="col-md-7">
+        <div class="row featurette my-5">
+            <div class="col-md-7" id="playa-amor">
                 <h2 class="featurette-heading fw-normal lh-1">Playa del Amor, Baja California Sur<span
                         class="text-muted"></span></h2>
                 <p class="p-bost">En la punta austral de la península de Baja California, las aguas del Pacífico
@@ -148,14 +170,15 @@
                     es posible ver ballenas y ballenatos.</p>
             </div>
             <div class="col-md-5">
-                <img class="img-bots" src="../assets/playa-del-amor-bjs.jpg" alt="playa-del-amor">
+                <img class="img-bots rounded-4 object-fit-cover" src="../assets/playa-del-amor-bjs.jpg"
+                    alt="playa-del-amor">
             </div>
         </div>
 
         <hr class="featurette-divider">
 
-        <div class="row featurette">
-            <div class="col-md-7 order-md-2">
+        <div class="row featurette my-5">
+            <div class="col-md-7 order-md-2" id="sayulita">
                 <h2 class="featurette-heading fw-normal lh-1">Sayulita, Nayarit<span class=></span></h2>
                 <p class="p-bost">Esta localidad nayarita ostenta la categoría de Pueblo Mágico mexicano por sus
                     hermosas playas,
@@ -168,14 +191,15 @@
                     nayarita.</p>
             </div>
             <div class="col-md-5 order-md-1">
-                <img class=img-bots src="../assets/sayulita-nayarit.jpg" alt="sayulita-nayarit">
+                <img class="img-bots rounded-4 object-fit-cover" src="../assets/sayulita-nayarit.jpg"
+                    alt="sayulita-nayarit">
             </div>
         </div>
 
         <hr class="featurette-divider">
 
-        <div class="row featurette">
-            <div class="col-md-7">
+        <div class="row featurette my-5">
+            <div class="col-md-7" id="mazatlan">
                 <h2 class="featurette-heading fw-normal lh-1">Mazatlán, Sinaloa<span class="text-muted"></span></h2>
                 <p class="p-bost">El corredor de playas de La Perla del Pacífico, que abarca más de 15 kilómetros,
                     es
@@ -190,14 +214,15 @@
                     diferentes especies de tiburones y de tortugas y los meros gigantes.</p>
             </div>
             <div class="col-md-5">
-                <img class="img-bots" src="../assets/mazatlan-sinaloa.jpg" alt="mazatlan-sinaloa">
+                <img class="img-bots rounded-4 object-fit-cover" src="../assets/mazatlan-sinaloa.jpg"
+                    alt="mazatlan-sinaloa">
             </div>
         </div>
 
         <hr class="featurette-divider">
 
-        <div class="row featurette">
-            <div class="col-md-7 order-md-2">
+        <div class="row featurette my-5">
+            <div class="col-md-7 order-md-2" id="ixtapa">
                 <h2 class="featurette-heading fw-normal lh-1">Ixtapa, Guerrero<span class=></span></h2>
                 <p class="p-bost">Ixtapa y su fraternal Zihuatanejo constituyen uno de los vértices del llamado
                     Triángulo del Sol, que
@@ -209,7 +234,8 @@
                     entretenimientos acuáticos.</p>
             </div>
             <div class="col-md-5 order-md-1">
-                <img class=img-bots src="../assets/ixtapa-guerrero.jpg" alt="ixtapa-guerrero">
+                <img class="img-bots rounded-4 object-fit-cover" src="../assets/ixtapa-guerrero.jpg"
+                    alt="ixtapa-guerrero">
             </div>
         </div>
 
@@ -234,19 +260,20 @@
 
             <div class="redes">
 
-                <a class="footer-link" href="https://www.facebook.com/search/top?q=m%C3%A9xico%20desconocido"
-                    target="_blank">
+                <a class="footer-link" href="https://www.facebook.com/mexicodesconocido" target="_blank">
                     <img class="footer-link-images" src="../assets/logo-facebook.png" alt="logo-facebook">
                 </a>
-
 
                 <a class="footer-link" href="https://www.instagram.com/mexicodesconocido/" target="_blank">
                     <img class="footer-link-images" src="../assets/instagram_logo1.svg.png" alt="logoinstagram">
                 </a>
 
-                <a class="footer-link" href="https://www.tiktok.com/@ihistoria.com?lang=es" target="_blank">
+                <a class="footer-link" href="https://www.tiktok.com/@mexicodesconocido?lang=es" target="_blank">
                     <img class="footer-link-images" src="../assets/logo-tiktok.png" alt="logotiktok">
                 </a>
+            </div>
+            <div>
+                <a class="mapa-sitio" href="../pages/mapa-del-sitio.html">Mapa del Sitio</a>
             </div>
         </div>
 

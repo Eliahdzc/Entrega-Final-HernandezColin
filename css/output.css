@@ -1,0 +1,465 @@
+/*Importaciones a Partials */ /* Variables */ /* Estilos Generales */
+.letrabody {
+  font-family: "Raleway", sans-serif;
+  margin: 0px 0px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 35px;
+  padding: 15px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 25px;
+  padding: 15px;
+}
+
+p {
+  text-align: center;
+  font-size: x-large;
+}
+
+/* Header */
+h1 {
+  letter-spacing: 10px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 80px;
+  color: #a74561;
+}
+
+a {
+  margin: 25px;
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: underline #a74561 2px;
+}
+
+li {
+  display: inline-block;
+}
+
+.menu-principal {
+  text-align: center;
+  font-size: x-large;
+}
+
+.navcenter ul li a {
+  justify-content: center;
+}
+
+.header-section-index {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25%;
+}
+
+.logo {
+  height: 100%;
+  width: 100%;
+}
+
+.hxindex {
+  display: flex;
+  flex-direction: column;
+  font-weight: bolder;
+  padding: 5px;
+}
+
+.header-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo1-titulo {
+  background-image: url(../assets/img-suculenta-der.png);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 150px;
+}
+
+.logo2-titulo {
+  background-image: url(../assets/img-suculenta-izq.png);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 150px;
+}
+
+/* Main */
+.p-index {
+  font-size: 20px;
+}
+
+.btn-primary {
+  background-color: #a74561;
+  border-color: #a74561;
+}
+.btn-primary:hover {
+  background-color: #f7c0d0;
+  border-color: #f7c0d0;
+  color: #a74561;
+}
+
+.main-section {
+  padding: 0px 0px 120px 0px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.link-lugares {
+  border-radius: 10px;
+  padding: 15px 30px;
+  background-color: #a74561;
+  border-color: #a74561;
+  color: #f7c0d0;
+}
+.link-lugares:hover {
+  background-color: #f7c0d0;
+  border-color: #f7c0d0;
+  color: #a74561;
+}
+
+.cultura-video {
+  display: block;
+}
+
+.cultura-video-small {
+  display: none;
+}
+
+.zonas-img {
+  height: 450px;
+  width: 400px;
+}
+
+.pueblos-img {
+  height: 450px;
+  width: 400px;
+}
+
+.playas-img {
+  height: 450px;
+  width: 400px;
+}
+
+.imagencontacto {
+  border: 2px solid #a74561;
+  border-radius: 10px;
+  height: 450px;
+  width: 400px;
+  margin: 20px 50px 25px 50px;
+  background-image: url(../assets/mariachi.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.main-section-contacto {
+  padding: 0px 0px 120px 0px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.img-bots {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.p-bost {
+  font-size: 18px;
+}
+
+.div-mapa-index {
+  display: block;
+}
+
+.nav-mapa-index {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: left;
+  font-size: 30px;
+}
+.nav-mapa-index li {
+  display: block;
+}
+
+.mapa-sitio-titulos {
+  font-size: 35px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+/* Footer */
+.redes {
+  padding: 25px 25px 0px 25px;
+  text-align: center;
+}
+
+.footer {
+  height: 310px;
+  padding: 25px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-top: 15px;
+}
+
+.footer-menu-redes {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+
+.footer-logo {
+  height: 100%;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.footer-link-images {
+  width: 100%;
+}
+
+.footer-link {
+  display: inline-block;
+  width: 100px;
+}
+
+.navfooter {
+  display: block;
+  text-align: center;
+  font-size: large;
+}
+
+.mapa-sitio {
+  display: block;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+  .footer-logo {
+    width: 100%;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .cultura-video {
+    width: 100%;
+  }
+  .p-index {
+    font-size: 12px;
+  }
+  .menu-principal {
+    font-size: large;
+  }
+  .navfooter {
+    display: block;
+    font-size: small;
+  }
+  .nav-mapa-index {
+    display: block;
+    padding: 10px;
+    list-style: circle;
+    text-align: center;
+    font-size: 20px;
+  }
+  .mapa-sitio-titulos {
+    font-size: 25px;
+    font-weight: bolder;
+  }
+}
+@media (max-width: 768px) {
+  .menu-principal {
+    font-size: small;
+  }
+  .footer-menu-redes .navfooter {
+    display: none;
+  }
+  .p-bost {
+    font-size: 15px;
+  }
+  .nav-mapa-index {
+    display: block;
+    list-style: circle;
+    text-align: center;
+    font-size: 10px;
+  }
+  .mapa-sitio-titulos {
+    font-size: 15px;
+    font-weight: bolder;
+  }
+}
+@media (max-width: 500px) {
+  .footer-logo {
+    width: 100%;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .cultura-video {
+    width: 320px;
+    display: none;
+  }
+  .p-index {
+    font-size: 10px;
+  }
+  .menu-principal {
+    font-size: 15px;
+    text-align: justify;
+    padding-inline-start: 0;
+  }
+  .menu-principal ul {
+    padding-inline-start: 0;
+  }
+  .logo1-titulo {
+    height: 100px;
+    width: 100px;
+  }
+  .logo2-titulo {
+    height: 100px;
+    width: 100px;
+  }
+  .main-index {
+    height: 500px;
+  }
+  .footer-link {
+    width: 50px;
+  }
+  .redes {
+    padding: 0;
+  }
+  .footer {
+    padding: 0;
+    margin: 0;
+    height: 200px;
+  }
+  .zonas-img {
+    margin: 0;
+    height: 380px;
+    width: 320px;
+  }
+  .pueblos-img {
+    margin: 0;
+    height: 380px;
+    width: 320px;
+  }
+  .playas-img {
+    margin: 0;
+    height: 380px;
+    width: 320px;
+    font-size: 12px;
+    text-align: right;
+  }
+  .main-section {
+    padding: 0px 0px 0px 0px;
+    justify-content: center;
+  }
+  .cultura-video-small {
+    display: block;
+  }
+  .imagencontacto {
+    width: 320px;
+    margin: 0;
+    padding: 0;
+  }
+  .h2contacto {
+    display: none;
+  }
+  .h3contacto {
+    display: none;
+  }
+  .form {
+    text-align: center;
+  }
+  .div-contacto {
+    width: 320px;
+  }
+  .div-parrafo {
+    font-size: smaller;
+  }
+  .p-bost {
+    font-size: 12px;
+  }
+}
+/* Extends */
+.formato-img, .playas-img, .pueblos-img, .zonas-img {
+  border: 2px solid #a74561;
+  border-radius: 10px;
+}
+
+.zonas-img {
+  margin: 50px;
+  background-image: url(../assets/chichenitza-1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.pueblos-img {
+  margin: 50px;
+  background-image: url(../assets/img-hidalgo.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.playas-img {
+  margin: 50px;
+  background-image: url(../assets/img-playa-delfines-cancun.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+/* Mixings */
+.cultura {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.zonas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pueblos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.playas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*# sourceMappingURL=output.css.map */

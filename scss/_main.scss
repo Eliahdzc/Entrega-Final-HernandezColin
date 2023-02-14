@@ -1,0 +1,106 @@
+/* Main */
+
+.p-index {
+	font-size: 20px;
+}
+.btn-primary {
+	background-color: $dark-pink;
+	border-color: $dark-pink;
+	&:hover {
+		background-color: $light-pink;
+		border-color: $light-pink;
+		color: $dark-pink;
+	}
+}
+
+.main-section {
+	padding: 0px 0px 120px 0px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.link-lugares {
+	border-radius: 10px;
+	padding: 15px 30px;
+	background-color: $dark-pink;
+	border-color: $dark-pink;
+	color: $light-pink;
+	&:hover {
+		background-color: $light-pink;
+		border-color: $light-pink;
+		color: $dark-pink;
+	}
+}
+
+.cultura-video {
+	display: block;
+}
+.cultura-video-small {
+	display: none;
+}
+
+.zonas-img {
+   	height: 450px;
+	width: 400px;
+}
+
+.pueblos-img {
+   	height: 450px;
+	width: 400px;
+}
+
+.playas-img {
+   	height: 450px;
+	width: 400px;
+}
+
+.imagencontacto {
+    border: 2px solid $dark-pink;
+    border-radius: 10px;
+    height: 450px;
+    width: 400px;
+    margin: 20px 50px 25px 50px;
+    background-image: url(../assets/mariachi.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.main-section-contacto {
+	padding: 0px 0px 120px 0px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.img-bots {
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
+}
+.p-bost {
+	font-size: 18px;
+}
+
+.div-mapa-index {
+	display: block;
+}
+
+.nav-mapa-index {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	text-align: left; 
+	font-size: 30px;
+
+	& li {
+		display: block;
+	}
+}
+
+.mapa-sitio-titulos {
+	font-size: 35px;
+	font-weight: bolder;
+	text-align: center;
+}

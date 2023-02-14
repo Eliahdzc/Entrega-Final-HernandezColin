@@ -5,42 +5,13 @@
     margin: 0px 0px;
 }
 
+
 h1 {
     letter-spacing: 10px;
     text-align: center;
-    font-weight: 4000px;
+    font-weight: 900;
     font-size: 80px;
-}
-
-.menu-principal {
-    text-align: center;
-    font-size: x-large;
-}
-
-.redes {
-    padding: 25px 25px 0px 25px;
-    text-align: center;
-}
-
-a {
-    margin: 25px;
-}
-
-li a {
-    margin: 20px;
-}
-
-a:hover {
-    text-decoration: underline #a74561 2px;
-}
-
-li {
-    display: inline-block;
-}
-
-a {
-    text-decoration: none;
-    color: black;
+    color: #a74561;
 }
 
 h2 {
@@ -55,9 +26,37 @@ h3 {
     padding: 15px;
 }
 
+a {
+    margin: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline #a74561 2px;
+}
+
+li {
+    display: inline-block;
+}
+
 p {
     text-align: center;
     font-size: x-large;
+}
+
+.menu-principal {
+    text-align: center;
+    font-size: x-large;
+}
+
+.redes {
+    padding: 25px 25px 0px 25px;
+    text-align: center;
+}
+
+.navcenter ul li a {
+    justify-content: center;
 }
 
 /* Estilos index */
@@ -74,22 +73,26 @@ p {
     width: 100%;
 }
 
-.main-index {
-    background: url(https://osn.inba.gob.mx/images/palciofoto.jpeg);
-    height: 1200px;
-    background-position: center;
-    background-size: cover;
-    padding: 25px 25px;
-}
-
 .hxindex {
     display: flex;
     flex-direction: column;
     font-weight: bolder;
-    color: whitesmoke;
-    background: rgba(0, 0, 0, 0.5);
-    text-shadow: rgb(57, 57, 110);
     padding: 5px;
+}
+
+.p-index {
+    font-size: 20px;
+}
+
+.btn-primary {
+    background-color: #a74561;
+    border-color: #a74561;
+}
+
+.btn-primary:hover {
+    background-color: #f7c0d0;
+    border-color: #f7c0d0;
+    color: #a74561;
 }
 
 /* Estilo Footer */
@@ -126,6 +129,7 @@ p {
 }
 
 .navfooter {
+    display: block;
     text-align: center;
     font-size: large;
 }
@@ -167,19 +171,26 @@ p {
     flex-wrap: wrap;
 }
 
-.main-section-contacto {
-    padding: 0px 0px 120px 0px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+
+
+.link-lugares {
+    border-radius: 10px;
+    padding: 15px 30px;
+    background-color: #a74561;
+    border-color: #a74561;
+    color: #f7c0d0;
 }
 
+.link-lugares:hover {
+    background-color: #f7c0d0;
+    border-color: #f7c0d0;
+    color: #a74561;
+}
 
 .zonas {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .zonas-img {
@@ -190,7 +201,6 @@ p {
     background-image: url(../assets/chichenitza-1.jpg);
     background-position: center;
     background-size: cover;
-    display: flex;
 }
 
 .pueblos {
@@ -207,7 +217,6 @@ p {
     background-image: url(../assets/img-hidalgo.jpg);
     background-position: center;
     background-size: cover;
-    display: flex;
 }
 
 .playas {
@@ -224,7 +233,6 @@ p {
     background-image: url(../assets/img-playa-delfines-cancun.jpg);
     background-position: center;
     background-size: cover;
-    display: flex;
 }
 
 .cultura-video {
@@ -233,6 +241,13 @@ p {
 
 .cultura-video-small {
     display: none;
+}
+
+.main-section-contacto {
+    padding: 0px 0px 120px 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .imagencontacto {
@@ -245,53 +260,17 @@ p {
     background-size: cover;
 }
 
-/* Vamos a añadir esto 👇 */
-
-.menu-principalprueba {
-    text-align: center;
-    font-size: x-large;
-}
-
-.header-sectionprueba {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    bottom: 0;
-}
-
-.section-lugares {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.div-lugares {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.div-parrafo {
-    display: flex;
-    padding: 20px 100px 50px 100px;
-    text-align: center;
-    font-size: medium;
-    
-}
-
 .img-bots {
     height: 100%;
     width: 100%;
     object-fit: contain;
-    }
+}
 
 .p-bost {
     font-size: 18px;
 }
+
+/* Media Querys */
 
 @media (max-width: 1024px) {
     .footer-logo {
@@ -311,7 +290,11 @@ p {
     }
 
     .cultura-video {
-        width: 80%;
+        width: 100%;
+    }
+
+    .p-index {
+        font-size: 12px;
     }
 
     .menu-principal {
@@ -319,9 +302,12 @@ p {
     }
 
     .navfooter {
+        display: block;
         font-size: small;
     }
 }
+
+
 
 @media (max-width: 768px) {
     .menu-principal {
@@ -331,12 +317,15 @@ p {
     .navfooter {
         display: none;
     }
+
     .p-bost {
-        font-size:15px;
+        font-size: 15px;
     }
 }
 
-@media (max-width: 425px) {
+
+
+@media (max-width: 500px) {
     .footer-logo {
         width: 100%;
     }
@@ -355,6 +344,10 @@ p {
 
     .cultura-video {
         width: 320px;
+    }
+
+    .p-index {
+        font-size: 10px;
     }
 
     .menu-principal ul {
@@ -381,9 +374,9 @@ p {
         height: 500px;
     }
 
+
     .navfooter {
-        font-size: 11px;
-        text-align: left;
+        display: none;
     }
 
     .footer-link {
@@ -454,10 +447,13 @@ p {
     .div-contacto {
         width: 320px;
     }
+
     .div-parrafo {
         font-size: smaller;
     }
+
     .p-bost {
         font-size: 12px;
     }
+
 }

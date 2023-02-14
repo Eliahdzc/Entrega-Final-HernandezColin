@@ -1,0 +1,33 @@
+/* Extends */
+
+.formato-img {
+    border: 2px solid $dark-pink;
+    border-radius: 10px;
+}
+
+.zonas-img {
+    @extend .formato-img;
+	margin: 50px;
+	background-image: url(../assets/chichenitza-1.jpg);
+	background-position: $bg-po;
+	background-size: $bg-zs;
+}
+
+.pueblos-img {
+    @extend .formato-img;
+	margin: 50px;
+	background-image: url(../assets/img-hidalgo.jpg);
+	background-position: $bg-po;
+	background-size: $bg-zs;
+	
+}
+
+.playas-img {
+    @extend .formato-img;
+	margin: 50px;
+	background-image: url(../assets/img-playa-delfines-cancun.jpg);
+	background-position: $bg-po;
+	background-size: $bg-zs;
+
+}
+

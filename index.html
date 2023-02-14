@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Folklorisimo</title>
-
+<meta name="description" content="Realiza un viaje virtual por México, conoce mas de nuestra cultura, gente y lugares interesantes por conocer.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -14,7 +14,9 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Belleza&family=Krub:wght@200;500;700&family=Raleway:wght@100;400;600&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="css/output.css">
+
 </head>
 
 <body class="letrabody">
@@ -26,56 +28,483 @@
         <img class="logo" src="./assets/logo-folklorisimo.gif" alt="logo">
       </div>
     </section>
-<section class="menu-h">
-    <nav class="navbar" style="background-color: #f7c0d0;"aria-label="Light offcanvas navbar">
+    <nav class="navbar navbar-expand-lg navcenter" style="background-color: #f7c0d0;">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Menu de Navegación</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarLight"
-          aria-controls="offcanvasNavbarLight">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbarLight"
-          aria-labelledby="offcanvasNavbarLightLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLightLabel">Secciones</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./pages/lugares-magicos.html">Lugares Mágicos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./pages/cultura.html">Cultura</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./pages/gastronomia.html">Gastronomía</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./pages/interactivo.html">Espacio Interactivo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
-              </li>
-            </ul>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link fs-4 fw-semibold" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-4 fw-semibold" href="pages/lugares-magicos.html">Lugares Mágicos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-4 fw-semibold" href="pages/cultura.html">Cultura</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-4 fw-semibold" href="pages/gastronomia.html">Gastronomía</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-4 fw-semibold" href="pages/interactivo.html">Espacio Interactivo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-4 fw-semibold" href="pages/contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
-    </section>
   </header>
 
   <main class="main-index">
-    <article class="hxindex">
+    <article class="hxindex" id="intro">
       <h1>Un viaje virtual por México</h1>
 
       <h2>En este sitio podrás conocer de cerca parte de Nuestro Hermoso México y su Cultura</h2>
-      <p>México es un lugar lleno de color con una amplia diversidad de paisajes que enamoran a todo visitante.</p>
-      <p>La calidez de su gente, la belleza de su cultura hace que permanezca en tu corazón para siempre.</p>
-      <h2>Comienza tu viaje</h2>
+      <p>México es un lugar lleno de color con una amplia diversidad de paisajes que enamoran a todo visitante</p>
+      <p>La calidez de su gente y la belleza de su cultura hace que permanezca en tu corazón para siempre</p>
+      <h2 class="animate__animated animate__swing">Comienza tu viaje</h2>
     </article>
-
   </main>
+
+  <!-- contenedor de cards -->
+  <div class="container-fluid">
+    <!-- Primera Sección -->
+    <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
+      <div class="col">
+        <div class="card h-100" id="angel">
+          <img src="assets/angel-indep.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="fs-3 text-center fw-bold">Angel de la Independencia</h5>
+            <p class="card-text fs-md-5 fs-sm-3">El Monumento a la Independencia coloquialmente, El Ángel o El Ángel de
+              la
+              Independencia, es una columna honoraria que se encuentra en la Ciudad de México, en la glorieta localizada
+              en la confluencia de la avenida Paseo de la Reforma y las calles Río Tíber y Florencia. La inauguró en
+              1910 el entonces presidente de México, Porfirio Díaz, para conmemorar el Centenario del inicio de la
+              guerra de independencia de ese país. En años posteriores se convirtió en un mausoleo para los héroes más
+              importantes de esa guerra. Es uno de los monumentos más emblemáticos de la urbe y usado actualmente como
+              un icono cultural de la Ciudad de México y lugar de festejos y manifestaciones nacionales.</p>
+          </div>
+          <div class="card-footer">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#botonAngel">
+              Video</button>
+            <!-- Modal -->
+            <div class="modal fade" id="botonAngel" tabindex="-1" aria-labelledby="botonAngelLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5 text-center" id="botonAngelLabel text-center fw-bold">Angel de la
+                      Independencia</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="cultura-video justify-content-center">
+                      <iframe width="100%" height="245" src="https://www.youtube.com/embed/ulBbur1-2jo"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    </div>
+
+                    <div class="cultura-video-small">
+                      <iframe width="100%" height="200" src="https://www.youtube.com/embed/ulBbur1-2jo"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col">
+        <div class="card h-100" id="chapultepec">
+          <img src="assets/bosque-chapultepec.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="fs-3 text-center fw-bold">Bosque de Chapultepec</h5>
+            <p class="card-text fs-md-5 fs-sm-3">El bosque de Chapultepec o Chapultepec es un parque urbano localizado
+              en la
+              alcaldía Miguel Hidalgo, en la Ciudad de México. Es el mayor en su tipo en el hemisferio occidental, con
+              una superficie de 810 ha.Está dividido en cuatro secciones y alberga algunos de los sitios turísticos más
+              importantes de México, como el Museo Nacional de Antropología. Cuenta con tres lagos artificiales,
+              espacios deportivos y numerosas fuentes. Dada la antigüedad en su ocupación humana el bosque fue declarado
+              zona arqueológica y contiene numerosos vestigios históricos y objetos arqueológicos.</p>
+          </div>
+          <div class="card-footer">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#botonChapultepec">
+              Video
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="botonChapultepec" tabindex="-1" aria-labelledby="botonChapultepecLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5 text-center" id="botonChapultepecLabel text-center fw-bold">Bosque de
+                      Chapultepec</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="cultura-video">
+                      <iframe width="100%" height="245" src="https://www.youtube.com/embed/wFlYdS_YRfc"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    </div>
+                    <div class="cultura-video-small">
+                      <iframe width="100%" height="200" src="https://www.youtube.com/embed/wFlYdS_YRfc"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col">
+        <div class="card h-100" id="torre-latino">
+          <img src="assets/torre-latino.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="fs-3 text-center fw-bold">Torre Latinoamericana</h5>
+            <p class="card-text fs-md-5 fs-sm-3">La Torre Latinoamericana es un rascacielos ubicado en el Centro
+              Histórico de
+              Ciudad de México. Su ubicación céntrica, su altura (1823 metros si se incluye la antena, con 44 pisos) y
+              su historia la han convertido en uno de los edificios más emblemáticos de la Ciudad de México.
+              Fue diseñada por el arquitecto mexicano Augusto H. Álvarez. Superó a la Torre Anáhuac y a la Torre Miguel
+              E Abed en Ciudad de México y al rascacielos Altino Arantes en Brasil. Fue también el edificio más alto de
+              la ciudad desde su construcción en 1956 hasta 1972, año en que se completó el Hotel de México, actualmente
+              el Torre World Trade Center. También obtuvo el récord del rascacielos más alto del mundo fuera de Estados
+              Unidos y por lo tanto de Iberoamérica.</p>
+          </div>
+          <div class="card-footer">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#botonTorre">
+              Video
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="botonTorre" tabindex="-1" aria-labelledby="botonTorreLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5 text-center" id="botonTorreLabel text-center fw-bold">Torre
+                      Latinoamericana</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="cultura-video">
+                      <iframe width="100%" height="245" src="https://www.youtube.com/embed/xqxCH28x5LI"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    </div>
+                    <div class="cultura-video-small">
+                      <iframe width="100%" height="200" src="https://www.youtube.com/embed/xqxCH28x5LI"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- fin primera seccion -->
+
+    <!-- Segunda Seccion cards -->
+
+    <div class="row row-cols-1 row-cols-md-2 g-4 mb-5">
+      <div class="col">
+        <div class="card" id="bellas-artes">
+          <img src="assets/bellas-artes.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="fs-3 text-center fw-bold">Palacio de Bellas Artes</h5>
+            <p class="card-text fs-md-5 fs-sm-3">El Palacio de Bellas Artes es un recinto cultural ubicado en el Centro
+              Histórico
+              de la Ciudad de México, considerado el más importante en la manifestación de las artes en México y una de
+              las casas de ópera más renombradas del mundo; ha sido escenario y testigo de impactantes acontecimientos
+              tanto artísticos, como sociales y políticos; su construcción fue iniciada hacia el final del mandato de
+              Porfirio Díaz con motivo de la celebración del centenario del inicio de la Independencia de México; sin
+              embargo, no fue concluido e inaugurado sino hasta el 29 de septiembre de 1934, debido a la Revolución
+              mexicana. Alberga diversos escenarios y espacios artísticos como el Museo Palacio de Bellas Artes y el
+              Museo Nacional de Arquitectura. </p>
+          </div>
+          <div class="card-footer">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#botonBellasArtes">
+              Video
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="botonBellasArtes" tabindex="-1" aria-labelledby="botonBellasArtesLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5 text-center" id="botonBellasArtesLabel text-center fw-bold">Palacio de
+                      Bellas Artes</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="cultura-video">
+                      <iframe width="100%" height="245" src="https://www.youtube.com/embed/61zKlC1KAzE"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    </div>
+                    <div class="cultura-video-small">
+                      <iframe width="100%" height="200" src="https://www.youtube.com/embed/61zKlC1KAzE"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" id="revolucion">
+          <img src="assets/monumento-revolucion.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="fs-3 text-center fw-bold">Monumento a la Revolución</h5>
+            <p class="card-text fs-md-5 fs-sm-3">El Monumento a la Revolución es una obra arquitectónica y un mausoleo
+              dedicado a
+              la conmemoración de la Revolución mexicana. Es obra del arquitecto Carlos Obregón Santacilia, quien tomó
+              la estructura de la Sala de los Pasos Perdidos del malogrado Palacio Legislativo Federal del arquitecto
+              francés Émile Bénard para edificar el monumento, concluido en 1938. Actualmente es uno de los más
+              simbólicos en la Ciudad de México, y forma parte de un conjunto integrado por el propio monumento, la
+              Plaza de la República y el Museo Nacional de la Revolución. Se localiza en la Colonia Tabacalera de la
+              alcaldía Cuauhtémoc, cerca del Centro Histórico de la Ciudad de México.</p>
+          </div>
+          <div class="card-footer">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#botonRevolucion">
+              Video
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="botonRevolucion" tabindex="-1" aria-labelledby="botonRevolucionLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5 text-center" id="botonRevolucionLabel text-center fw-bold">Monumento a
+                      la Revolución</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="cultura-video">
+                      <iframe width="100%" height="245" src="https://www.youtube.com/embed/pbG9NKhjcYo"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    </div>
+                    <div class="cultura-video-small">
+                      <iframe width="100%" height="200" src="https://www.youtube.com/embed/pbG9NKhjcYo"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- fin segunda seccion cards -->
+
+    <!-- Tercera seccion cards -->
+    <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
+      <div class="col">
+        <div class="card h-100" id="arena">
+          <img src="assets/arena-mexico.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="fs-3 text-center fw-bold">Arena México</h5>
+            <p class="card-text fs-md-5 fs-sm-3">La Arena México, también es conocida como La Catedral de la Lucha Libre
+              Mexicana
+              ,está ubicada en la Colonia Doctores de la Ciudad de México. En su interior se desarrollan los principales
+              encuentros de este deporte espectáculo. Fue inaugurada el 27 de Abril de 1956 por Don Salvador Lutteroth
+              González. También ha sido recinto de los Juegos Olímpicos de 1968, donde México consiguió dos medallas de
+              oro y dos de bronce. </p>
+          </div>
+          <div class="card-footer">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#botonArena">
+              Video
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="botonArena" tabindex="-1" aria-labelledby="botonArenalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5 text-center" id="boton ArenaLabel text-center fw-bold">Arena México</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="cultura-video">
+                      <iframe width="100%" height="245" src="https://www.youtube.com/embed/4dTtr7AL1vs"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    </div>
+                    <div class="cultura-video-small">
+                      <iframe width="100%" height="200" src="https://www.youtube.com/embed/4dTtr7AL1vs"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col">
+        <div class="card h-100" id="garibaldi">
+          <img src="assets/garibaldi-1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="fs-3 text-center fw-bold">Plaza de Garibaldi</h5>
+            <p class="card-text fs-md-5 fs-sm-3">La plaza Garibaldi está situada en la parte centro norte del Centro
+              Histórico de
+              la Ciudad de México en el barrio de la Lagunilla, es famosa por los grupos de mariachis, grupos norteños,
+              tríos románticos y grupos de música veracruzana, vestidos con su atuendo típico y equipados con sus
+              instrumentos musicales. Por muchos años ha sido el lugar de elección para conseguir a un mariachi quien
+              cante o acompañe una serenata, toque y cante en una fiesta de quinceañera, o en algunos cumpleaños, noches
+              mexicanas y otros festejos.</p>
+          </div>
+          <div class="card-footer">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#botonGaribaldi">
+              Video
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="botonGaribaldi" tabindex="-1" aria-labelledby="botonGaribaldiLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5 text-center" id="botonGaribaldiLabel text-center fw-bold">Plaza de
+                      Garibaldi</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="cultura-video">
+                      <iframe width="100%" height="245" src="https://www.youtube.com/embed/bJfPgpBAFxg"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    </div>
+                    <div class="cultura-video-small">
+                      <iframe width="100%" height="200" src="https://www.youtube.com/embed/bJfPgpBAFxg"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col">
+        <div class="card h-100" id="tepito">
+          <img src="assets/tepito.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="fs-3 text-center fw-bold">Mercado de Tepito</h5>
+            <p class="card-text fs-md-5 fs-sm-3">Tepito (en náhuatl Teocaltepiton; teocalli- 'templo', tepiton -
+              'pequeño', "templo
+              pequeño") es un barrio perteneciente a la colonia Morelos ubicado en la Ciudad de México, al norte del
+              Centro Histórico. Se caracteriza por su historia, tradiciones y su alta actividad comercial —su vocación
+              en ella se remonta a la época prehispánica—, así como por problemáticas sociales como la delincuencia y
+              drogadicción. Tiene un sitio peculiar en la identidad capitalina, por lo que la importancia cultural de
+              Tepito ha sido remarcada por intelectuales y artistas nacionales e internacionales. Es la cuna de
+              distintas manifestaciones sociales y culturales, así como el sitio de donde han surgido afamados
+              deportistas. Debido al carácter de sus habitantes, a las luchas sociales en distintos momentos de su
+              historia, así como a la resistencia por la conservación de su identidad, ha merecido el apelativo de
+              barrio bravo.</p>
+          </div>
+          <div class="card-footer">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#botonTepito">
+              Video
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="botonTepito" tabindex="-1" aria-labelledby="botonTepitoLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5 text-center" id="botonTepitolLabel text-center">Mercados de Tepito</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="cultura-video">
+                      <iframe width="100%" height="245" src="https://www.youtube.com/embed/vC-Ul4D8JlA"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    </div>
+                    <div class="cultura-video-small">
+                      <iframe width="100%" height="200" src="https://www.youtube.com/embed/vC-Ul4D8JlA"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- fin tercera seccion cards -->
+
+  <!-- fin de contenedor cards -->
+
+
 
   <footer class="footer">
     <div>
@@ -96,18 +525,20 @@
 
       <div class="redes">
 
-        <a class="footer-link" href="https://www.facebook.com/search/top?q=m%C3%A9xico%20desconocido" target="_blank">
+        <a class="footer-link" href="https://www.facebook.com/mexicodesconocido" target="_blank">
           <img class="footer-link-images" src="assets/logo-facebook.png" alt="logo-facebook">
         </a>
-
 
         <a class="footer-link" href="https://www.instagram.com/mexicodesconocido/" target="_blank">
           <img class="footer-link-images" src="assets/instagram_logo1.svg.png" alt="logoinstagram">
         </a>
 
-        <a class="footer-link" href="https://www.tiktok.com/@ihistoria.com?lang=es" target="_blank">
+        <a class="footer-link" href="https://www.tiktok.com/@mexicodesconocido?lang=es" target="_blank">
           <img class="footer-link-images" src="assets/logo-tiktok.png" alt="logotiktok">
         </a>
+      </div>
+      <div>
+        <a class="mapa-sitio" href="pages/mapa-del-sitio.html">Mapa del Sitio</a>
       </div>
     </div>
 
