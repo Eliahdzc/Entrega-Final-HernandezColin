@@ -5,9 +5,13 @@
 		width: 100%;
 	}
 
-	h1 {
-		font-size: 30px;
+	.header-section {
+
+		h1 {
+			font-size: 50px;
+		}
 	}
+
 
 	h2 {
 		font-size: 20px;
@@ -17,185 +21,453 @@
 		font-size: 16px;
 	}
 
-	.cultura-video {
-		width: 100%;
+	.navcenter {
+		ul {
+			li {
+				a {
+					margin: 10px;
+					font-size: 20px;
+				}
+			}
+		}
 	}
 
-	.p-index {
-		font-size: 12px;
-	}
 
-	.menu-principal {
-		font-size: large;
-	}
-
-	.navfooter {
-		display: block;
-		font-size: small;
-	}
-	.nav-mapa-index {
-		display: block;
-		padding: 10px;
-		list-style: circle;
-		text-align: center;
-		font-size: 20px;
-	}
-	
 	.mapa-sitio-titulos {
 		font-size: 25px;
 		font-weight: bolder;
 	}
 
+	.c-index {
+
+		.img-index {
+			height: 280px;
+		}
+
+		.cb-index {
+
+			.f-index-c {
+				font-size: 20px;
+			}
+
+			.p-index-c {
+				font-size: 15px;
+			}
+		}
+
+	}
+
+	.index-video {
+		display: block;
+	}
+
+	.index-video-small {
+		display: none;
+	}
+
+	.gastronomia-full {
+
+		.cards-wrapper {
+			display: flex;
+
+
+			.card-gastronomia {
+				margin: .5rem;
+				padding: 5px 5px 5px 5px;
+				width: calc(100%/3);
+				border: solid 1px $dark-pink;
+				border-radius: 5px;
+				text-align: justify;
+				font-size: 10px;
+
+				.image-wrapper {
+					height: 22vw;
+					margin: auto;
+
+					img {
+						max-width: 100%;
+						height: 100%;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 924px) {
+	.navcenter {
+		ul {
+			li {
+				a {
+					margin: 0px;
+					font-size: 15px;
+				}
+			}
+		}
+	}
+
+	.gastronomia-full {
+
+		.cards-wrapper {
+			display: flex;
+
+			.p-gastro {
+				height: 150px;
+				text-align: justify;
+				margin: 5px;
+				padding: 5px;
+				font-size: 15px;
+			}
+
+			.card-gastronomia {
+				height: 350px;
+				margin: .5rem;
+				padding: 5px 5px 5px 5px;
+				width: calc(100%/3);
+				border: solid 1px $dark-pink;
+				border-radius: 5px;
+				text-align: justify;
+
+				.image-wrapper {
+					height: 22vw;
+					margin: auto;
+
+					img {
+						max-width: 100%;
+						height: 100%;
+					}
+				}
+			}
+		}
+	}
 }
 
 @media (max-width: 768px) {
+
 	.menu-principal {
 		font-size: small;
 	}
 
-	.footer-menu-redes {
-		.navfooter {
-			display: none;
+	.footer {
+
+		.footer-menu-redes {
+			.navfooter {
+				display: none;
+			}
+
+			.redes {
+				.footer-link {
+					display: inline-block;
+					width: 100px;
+					margin: 15px;
+
+					.footer-link-images {
+						width: 80%;
+					}
+				}
+			}
 		}
+	}
+
+	.main-index {
+		h1 {
+			font-size: 35px;
+		}
+
+		.p-index {
+			font-size: 15px;
+		}
+	}
+
+	.main-section {
+		padding: 0px 0px 0px 0px;
+		justify-content: center;
+
+		.lugares-div {
+
+			h2 {
+				font-size: 30px;
+				margin: 10px;
+				text-align: center;
+				font-weight: bold;
+				padding: 10px;
+			}
+
+		}
+
 	}
 
 	.p-bost {
 		font-size: 15px;
+		text-align: justify;
 	}
 
 	.nav-mapa-index {
 		display: block;
 		list-style: circle;
 		text-align: center;
-		font-size: 10px;
+		font-size: 16px;
 	}
-	
+
 	.mapa-sitio-titulos {
-		font-size: 15px;
+		font-size: 20px;
 		font-weight: bolder;
 	}
+
+	.cards-wrapper {
+		display: flex;
+	}
+
+	.gastronomia-full {
+		display: none;
+	}
+
+	.gastronomia-small {
+		display: block;
+
+		.card-gastronomia {
+			.p-gastro {
+				height: 100px;
+				text-align: justify;
+				margin: 10px;
+				padding: 10px;
+			}
+
+			.image-wrapper {
+				height: 520px;
+
+				img {
+					width: 100%;
+					height: 500px;
+
+				}
+			}
+		}
+
+	}
+
+
 }
 
-@media (max-width: 500px) {
+@media (max-width: 567px) {
 	.footer-logo {
 		width: 100%;
 	}
 
-	h1 {
-		font-size: 20px;
-	}
+	.header-section {
 
-	h2 {
-		font-size: 20px;
-	}
-
-	p {
-		font-size: 16px;
-	}
-
-	.cultura-video {
-		width: 320px;
-		display: none;
-	}
-
-	.p-index {
-		font-size: 10px;
-	}
-
-	.menu-principal {
-		ul {
-			padding-inline-start: 0;
+		h1 {
+			font-size: 30px;
+			letter-spacing: 5px;
 		}
 
-		font-size: 15px;
-		text-align: justify;
-		padding-inline-start: 0;
-	}
+		.logo1-titulo {
+			height: 100px;
+			width: 100px;
+		}
 
-	.logo1-titulo {
-		height: 100px;
-		width: 100px;
-	}
-
-	.logo2-titulo {
-		height: 100px;
-		width: 100px;
-	}
-
-	.main-index {
-		height: 500px;
-	}
-
-	.footer-link {
-		width: 50px;
-	}
-
-	.redes {
-		padding: 0;
+		.logo2-titulo {
+			height: 100px;
+			width: 100px;
+		}
 	}
 
 	.footer {
-		padding: 0;
-		margin: 0;
-		height: 200px;
+
+		.footer-menu-redes {
+			.navfooter {
+				display: none;
+			}
+
+			.redes {
+				.footer-link {
+					display: inline-block;
+					width: 80px;
+					margin: 10px;
+
+					.footer-link-images {
+						width: 65%;
+					}
+				}
+			}
+		}
 	}
 
-	.zonas-img {
-		margin: 0;
-		height: 380px;
-		width: 320px;
-	}
-
-	.pueblos-img {
-		margin: 0;
-		height: 380px;
-		width: 320px;
-	}
-
-	.playas-img {
-		margin: 0;
-		height: 380px;
-		width: 320px;
-		font-size: 12px;
-		text-align: right;
-	}
 
 	.main-section {
 		padding: 0px 0px 0px 0px;
 		justify-content: center;
+
+		.lugares-div {
+
+			h2 {
+				font-size: 20px;
+				margin: 10px;
+				text-align: center;
+				font-weight: bold;
+				padding: 10px;
+			}
+
+			.img-lugares {
+				margin: 0;
+				height: 350px;
+				width: 300px;
+				justify-content: center;
+			}
+		}
+
+		.cultura {
+
+			.cultura-video {
+				display: none;
+			}
+
+			.cultura-video-small {
+				display: block;
+			}
+
+		}
+
+		.cultura-video-small {
+			display: block;
+		}
 	}
 
-	.cultura-video-small {
-		display: block;
+	.main-section-contacto {
+
+		.div-contacto {
+
+			h2 {
+				font-size: 20px;
+			}
+
+			.imagencontacto {
+				width: 320px;
+				margin: 0;
+				padding: 0;
+			}
+		}
 	}
 
-	.imagencontacto {
-		width: 320px;
-		margin: 0;
-		padding: 0;
-	}
-
-	.h2contacto {
-		display: none;
-	}
-
-	.h3contacto {
-		display: none;
-	}
-
-	.form {
-		text-align: center;
-	}
-
-	.div-contacto {
-		width: 320px;
-	}
-
-	.div-parrafo {
-		font-size: smaller;
-	}
 
 	.p-bost {
 		font-size: 12px;
 	}
+
+	.index-video {
+		display: none;
+	}
+
+	.index-video-small {
+		display: block;
+	}
+
+	.mapa-sitio {
+		font-size: 10px;
+	}
+
+	.gastronomia-small {
+		display: block;
+
+		.card-gastronomia {
+			.p-gastro {
+				height: 100px;
+				text-align: justify;
+				margin: 10px;
+				padding: 10px;
+			}
+
+			.image-wrapper {
+				height: 420px;
+
+				img {
+					width: 100%;
+					height: 400px;
+
+				}
+			}
+		}
+
+	}
+
+}
+
+@media (max-width: 375px) {
+	.footer-logo {
+		width: 100%;
+	}
+
+	.header-section {
+
+		h1 {
+			font-size: 25px;
+			letter-spacing: 2px;
+		}
+
+		.logo1-titulo {
+			height: 100px;
+			width: 100px;
+		}
+
+		.logo2-titulo {
+			height: 100px;
+			width: 100px;
+		}
+	}
+
+	.main-section-contacto {
+
+		.div-contacto {
+
+			h2 {
+				font-size: 20px;
+				text-align: center;
+				font-weight: bold;
+				color: $dark-pink;
+			}
+
+			.imagencontacto {
+				display: flex;
+				width: 320px;
+				margin: 10;
+				padding: 10;
+			}
+		}
+	}
+
+	.index-video {
+		display: none;
+	}
+
+	.index-video-small {
+		display: block;
+	}
+
+	.gastronomia-small {
+		display: block;
+
+		.card-gastronomia {
+			.p-gastro {
+				height: 150px;
+				font-size: 12px;
+				text-align: justify;
+				margin: 5px;
+				padding: 5px;
+			}
+
+			.image-wrapper {
+
+				width: 100%;
+				height: 300px;
+
+				img {
+					width: 100%;
+					height: 280px;
+
+				}
+			}
+		}
+
+	}
+
 }

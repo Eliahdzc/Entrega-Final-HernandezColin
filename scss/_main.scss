@@ -1,75 +1,130 @@
 /* Main */
 
-.p-index {
-	font-size: 20px;
+.main-index {
+
+	h1 {
+		letter-spacing: 5px;
+		text-align: center;
+		font-weight: bolder;
+		font-size: 50px;
+		color: $dark-pink;
+	}
+
+	.p-index {
+		text-align: justify;
+		margin: 10px;
+		font-size: 20px;
+	}
 }
+
 .btn-primary {
 	background-color: $dark-pink;
 	border-color: $dark-pink;
+
 	&:hover {
 		background-color: $light-pink;
 		border-color: $light-pink;
 		color: $dark-pink;
 	}
+
 }
 
 .main-section {
-	padding: 0px 0px 120px 0px;
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
-}
-.link-lugares {
-	border-radius: 10px;
-	padding: 15px 30px;
-	background-color: $dark-pink;
-	border-color: $dark-pink;
-	color: $light-pink;
-	&:hover {
-		background-color: $light-pink;
-		border-color: $light-pink;
-		color: $dark-pink;
+
+	.h2-gastro {
+		margin: 25px;
+		padding: 20px;
+
 	}
+
+	.lugares-div {
+
+		h2 {
+			font-size: 50px;
+			text-align: center;
+			font-weight: bold;
+			margin: 20px;
+			padding: 20px;
+		}
+
+		.img-lugares {
+			height: 450px;
+			width: 400px;
+
+			.link-lugares {
+				border-radius: 10px;
+				padding: 15px 30px;
+				background-color: $dark-pink;
+				border-color: $dark-pink;
+				color: $light-pink;
+
+				&:hover {
+					background-color: $light-pink;
+					border-color: $light-pink;
+					color: $dark-pink;
+				}
+			}
+
+		}
+	}
+
+	.cultura {
+
+		.cultura-video {
+			display: block;
+		}
+
+		.cultura-video-small {
+			display: none;
+		}
+
+	}
+
+
 }
 
-.cultura-video {
+
+.index-video {
 	display: block;
 }
-.cultura-video-small {
+
+.index-video-small {
 	display: none;
 }
 
-.zonas-img {
-   	height: 450px;
-	width: 400px;
-}
 
-.pueblos-img {
-   	height: 450px;
-	width: 400px;
-}
-
-.playas-img {
-   	height: 450px;
-	width: 400px;
-}
-
-.imagencontacto {
-    border: 2px solid $dark-pink;
-    border-radius: 10px;
-    height: 450px;
-    width: 400px;
-    margin: 20px 50px 25px 50px;
-    background-image: url(../assets/mariachi.jpg);
-    background-position: center;
-    background-size: cover;
-}
 
 .main-section-contacto {
 	padding: 0px 0px 120px 0px;
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
+
+	.div-contacto {
+
+		h2 {
+			margin: 15px;
+			padding: 15px;
+			font-size: 35px;
+			font-weight: bold;
+			text-align: center;
+			color: $dark-pink;
+		}
+
+		.imagencontacto {
+			border: 2px solid $dark-pink;
+			border-radius: 10px;
+			height: 450px;
+			width: 400px;
+			margin: 20px 50px 25px 50px;
+			background-image: url(../assets/mariachi.jpg);
+			background-position: center;
+			background-size: cover;
+		}
+	}
 }
 
 .img-bots {
@@ -77,8 +132,12 @@
 	width: 100%;
 	object-fit: contain;
 }
+
 .p-bost {
 	font-size: 18px;
+	text-align: justify;
+	margin: 5px;
+	padding: 5px;
 }
 
 .div-mapa-index {
@@ -91,7 +150,7 @@
 	align-items: center;
 	justify-content: center;
 	padding: 20px;
-	text-align: left; 
+	text-align: left;
 	font-size: 30px;
 
 	& li {
@@ -99,8 +158,89 @@
 	}
 }
 
-.mapa-sitio-titulos {
-	font-size: 35px;
-	font-weight: bolder;
-	text-align: center;
+#nav-mapa-index {
+
+	.mapa-sitio-titulos {
+		font-size: 35px;
+		font-weight: bolder;
+		text-align: center;
+	}
+
+	.nav-mapa-index {
+		li {
+			a {
+				text-decoration: none;
+				color: $dark-pink;
+
+				&:hover {
+					text-decoration: solid underline $dark-pink 2px;
+				}
+			}
+		}
+	}
+}
+
+.gastronomia-full {
+
+	.cards-wrapper {
+		display: flex;
+
+		.p-gastro {
+			height: 150px;
+			text-align: justify;
+			margin: 15px;
+			padding: 15px;
+		}
+
+		.card-gastronomia {
+			margin: .5rem;
+			padding: 5px 5px 5px 5px;
+			width: calc(100%/3);
+			border: solid 1px $dark-pink;
+			border-radius: 5px;
+			text-align: justify;
+			font-size: 20px;
+
+			.image-wrapper {
+				height: 22vw;
+				margin: auto;
+
+				img {
+					max-width: 100%;
+					height: 100%;
+				}
+			}
+		}
+	}
+}
+
+.c-index {
+
+	.img-index {
+		width: 100%;
+		height: 350px;
+		object-fit: cover;
+		object-position: center;
+	}
+
+	.cb-index {
+
+		.f-index-c {
+			font-size: 28px;
+		}
+
+		.p-index-c {
+			font-size: 20px;
+			text-align: justify;
+		}
+	}
+
+}
+
+.gastronomia-full {
+	display: block;
+}
+
+.gastronomia-small {
+	display: none;
 }

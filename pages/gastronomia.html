@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gastronomía | Folklorisimo</title>
+  <link rel="icon" href="../assets/suculenta.ico">
   <meta name="description" content="De México a tu paladar los platillos más relevantes en nuestra gastronomía.">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -13,8 +14,8 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Belleza&family=Krub:wght@200;500;700&family=Raleway:wght@100;400;600&display=swap"
     rel="stylesheet">
-    <link rel="stylesheet" href="../css/output.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="../css/output.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
 </head>
 
@@ -25,46 +26,46 @@
     <section class="header-section">
 
       <div class="logo1-titulo"></div>
-      <h1 class="animate__animated animate__heartBeat" class="titulo-pagina">Gastronomia</h1>
+      <h1 class="animate__animated animate__zoomIn titulo-pagina">Gastronomia</h1>
       <div class="logo2-titulo"></div>
     </section>
-
-    <nav class="navbar navbar-expand-lg navcenter" style="background-color: #f7c0d0;">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link fs-4 fw-semibold" aria-current="page" href="../index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link fs-4 fw-semibold" href="./lugares-magicos.html">Lugares Mágicos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link fs-4 fw-semibold" href="./cultura.html">Cultura</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link fs-4 fw-semibold" href="./gastronomia.html">Gastronomía</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link fs-4 fw-semibold" href="./interactivo.html">Espacio Interactivo</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link fs-4 fw-semibold" href="./contacto.html">Contacto</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
   </header>
 
+  <nav class="navbar sticky-top navbar-expand-lg navcenter" style="background-color: #f7c0d0;">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link fw-semibold" aria-current="page" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-semibold" href="./lugares-magicos.html">Lugares Mágicos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-semibold" href="./cultura.html">Cultura</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-semibold" href="./gastronomia.html">Gastronomía</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-semibold" href="./interactivo.html">Espacio Interactivo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-semibold" href="./contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
   <main class="main-section">
+
     <div class="cultura">
-      <h2>Sabor por Tradición</h2>
+      <h2 class="fw-bold h2-gastro">Sabores de México</h2>
       <div class="cultura-video">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/DT-r4SGwDTo" title="YouTube video player"
           frameborder="0"
@@ -79,8 +80,279 @@
           allowfullscreen></iframe>
       </div>
   </main>
+  <!-- Comienza carrusel para screen mayor a 769px -->
+  <section class="gastronomia-full">
+    <h3 class="fw-bold text-center m-5">Platillos Tradicionales</h3>
+    <div id="carouselExampleCaptions" class="carousel carousel-light slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="cards-wrapper">
+            <!-- Primer seccion de carrusel -->
+            <div class="card-gastronomia h-100">
+              <div class="image-wrapper">
+                <img src="../assets/barbacoa.jpg" class="card-img-top" alt="img-barbacoa">
+              </div>
+              <div class="card-body">
+                <h3 class="card-title text-center fw-bold fs-3 m-3">Barbacoa</h3>
+                <p class="card-text p-gastro">La barbacoa es un método de cocción prehispánico que consistía en
+                  formar un
+                  hoyo en la tierra, calentarlo con brasas de leña y piedras a altas temperaturas.
+                </p>
+              </div>
+            </div>
+            <div class="card-gastronomia h-100">
+              <div class="image-wrapper">
+                <img src="../assets/carnitas.jpg" class="card-img-top" alt="img-carnitas">
+              </div>
+              <div class="card-body">
+                <h3 class="card-title text-center fw-bold fs-3 m-3">Carnitas</h3>
+                <p class="card-text  p-gastro">Los domingos, las carnitas conforman uno de los rituales más íntimos
+                  de la
+                  vida en México.</p>
+              </div>
+            </div>
+            <div class="card-gastronomia h-100">
+              <div class="image-wrapper">
+                <img src="../assets/chiles-nogada.jpg" class="card-img-top" alt="img-chiles-nogada">
+              </div>
+              <div class="card-body">
+                <h3 class="card-title text-center fw-bold fs-3 m-3">Chiles en Nogada</h3>
+                <p class="card-text  p-gastro">Podríamos afirmar que este es uno de los platillos más
+                  representativos, bellos
+                  y deliciosos que podrás encontrar en nuestra gastronomía.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Segunda seccion de carrusel -->
+        <div class="carousel-item">
+          <div class="cards-wrapper">
+            <div class="card-gastronomia h-100">
+              <div class="image-wrapper">
+                <img src="../assets/cochinita.jpg" class="card-img-top" alt="img-cochinita">
+              </div>
+              <div class="card-body">
+                <h3 class="card-title text-center fw-bold fs-3 m-3">Cochinita Pibil</h3>
+                <p class="card-text  p-gastro">Platillo preparado con carne de cerdo adobada en achiote y envuelta
+                  en
+                  hojas de plátano, pibil en lengua Maya significa “bajo tierra”.</p>
+              </div>
+            </div>
+            <div class="card-gastronomia h-100">
+              <div class="image-wrapper">
+                <img src="../assets/mole.jpg" class="card-img-top" alt="img-mole">
+              </div>
+              <div class="card-body">
+                <h3 class="card-title text-center fw-bold fs-3 m-3">Mole</h3>
+                <p class="card-text  p-gastro">Es una salsa que está viva y de verdad al ponerlo en tu boca
+                  literalmente se
+                  vuelve una gran fiesta para el paladar.</p>
+              </div>
+            </div>
+            <div class="card-gastronomia h-100">
+              <div class="image-wrapper">
+                <img src="../assets/pescado-talla.jpg" class="card-img-top" alt="img-pescado-talla">
+              </div>
+              <div class="card-body">
+                <h3 class="card-title text-center fw-bold fs-3 m-3">Pescado a la Talla</h3>
+                <p class="card-text p-gastro">El emblematico Pescado a la talla, es abierto en mariposa y es
+                  cocinado a las
+                  brasas, y se unta una salsa roja preparada con chiles y
+                  especias.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Tercer seccion de carrusel -->
+        <div class="carousel-item">
+          <div class="cards-wrapper">
+            <div class="card-gastronomia h-100">
+              <div class="image-wrapper">
+                <img src="../assets/pozole.jpg" class="card-img-top" alt="img-pozole">
+              </div>
+              <div class="card-body">
+                <h3 class="card-title text-center fw-bold fs-3 m-3">Pozole</h3>
+                <p class="card-text  p-gastro">En el estado de Guerrero se prepara el blanco y el verde, mientras
+                  que en la
+                  Ciudad de México, Sinaloa, Nayarit y Jalisco se consume la variante roja.</p>
+              </div>
+            </div>
+            <div class="card-gastronomia h-100">
+              <div class="image-wrapper">
+                <img src="../assets/tacos.jpg" class="card-img-top" alt="img-tacos">
+              </div>
+              <div class="card-body">
+                <h3 class="card-title text-center fw-bold fs-3 m-3">Tacos</h3>
+                <p class="card-text  p-gastro">Si bien se desconoce a ciencia cierta su origen, se cree que el taco
+                  nació
+                  como la base de una dieta olmeca gracias a los primeros vestigios del maíz nixtamalizado.</p>
+              </div>
+            </div>
+            <div class="card-gastronomia h-100">
+              <div class="image-wrapper">
+                <img src="../assets/tlayuda.jpg" class="card-img-top" alt="img-tlayuda">
+              </div>
+              <div class="card-body">
+                <h3 class="card-title text-center fw-bold fs-3 m-3">Tlayuda</h3>
+                <p class="card-text  p-gastro">Son exclusivas de Oaxaca y uno de sus platos más populares. Tlayuda
+                  es en
+                  realidad el nombre que se le da a la gran tortilla de maíz; sin duda un manjar oaxaqueño.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Termina Carrusel para screen de hasta 769px -->
+  </section>
+  <!-- Comienza carrusel para screen menor a 768px -->
+  <section class="gastronomia-small">
+    <h3 class="fw-bold text-center m-5">Platillos Tradicionales</h3>
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card-gastronomia h-100">
+            <div class="image-wrapper">
+              <img src="../assets/barbacoa.jpg" class="card-img-top" alt="img-barbacoa">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title text-center fw-bold fs-3 m-3">Barbacoa</h3>
+              <p class="card-text  p-gastro">La barbacoa es un método de cocción prehispánico que consistía en
+                formar un
+                hoyo en la tierra, calentarlo con brasas de leña y piedras a altas temperaturas.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card-gastronomia h-100">
+            <div class="image-wrapper">
+              <img src="../assets/carnitas.jpg" class="card-img-top" alt="img-carnitas">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title text-center fw-bold fs-3 m-3">Carnitas</h3>
+              <p class="card-text  p-gastro">Los domingos, las carnitas conforman uno de los rituales más íntimos de
+                la
+                vida en México.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card-gastronomia h-100">
+            <div class="image-wrapper">
+              <img src="../assets/chiles-nogada.jpg" class="card-img-top" alt="img-chiles-nogada">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title text-center fw-bold fs-3 m-3">Chiles en Nogada</h3>
+              <p class="card-text  p-gastro">Podríamos afirmar que este es uno de los platillos más representativos,
+                bellos
+                y deliciosos que podrás encontrar en nuestra gastronomía.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card-gastronomia h-100">
+            <div class="image-wrapper">
+              <img src="../assets/cochinita.jpg" class="card-img-top" alt="img-cochinita">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title text-center fw-bold fs-3 m-3">Cochinita Pibil</h3>
+              <p class="card-text  p-gastro">Platillo preparado con carne de cerdo adobada en achiote y envuelta en
+                hojas de plátano, pibil en lengua Maya significa “bajo tierra”.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card-gastronomia h-100">
+            <div class="image-wrapper">
+              <img src="../assets/mole.jpg" class="card-img-top" alt="img-mole">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title text-center fw-bold fs-3 m-3">Mole</h3>
+              <p class="card-text  p-gastro">Es una salsa que está viva y de verdad al ponerlo en tu boca
+                literalmente se
+                vuelve una gran fiesta para el paladar.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card-gastronomia h-100">
+            <div class="image-wrapper">
+              <img src="../assets/pescado-talla.jpg" class="card-img-top" alt="img-pescado-talla">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title text-center fw-bold fs-3 m-3">Pescado a la Talla</h3>
+              <p class="card-text  p-gastro">El emblematico Pescado a la talla, es abierto en mariposa y es cocinado
+                a las
+                brasas, y se unta una salsa roja preparada con chiles y
+                especias.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card-gastronomia h-100">
+            <div class="image-wrapper">
+              <img src="../assets/pozole.jpg" class="card-img-top" alt="img-pozole">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title text-center fw-bold fs-3 m-3">Pozole</h3>
+              <p class="card-text  p-gastro">En el estado de Guerrero se prepara el blanco y el verde, mientras que
+                en la
+                Ciudad de México, Sinaloa, Nayarit y Jalisco se consume la variante roja.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card-gastronomia h-100">
+            <div class="image-wrapper">
+              <img src="../assets/tacos.jpg" class="card-img-top" alt="img-tacos">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title text-center fw-bold fs-3 m-3">Tacos</h3>
+              <p class="card-text  p-gastro">Si bien se desconoce a ciencia cierta su origen, se cree que el taco
+                nació
+                como la base de una dieta olmeca gracias a los primeros vestigios del maíz nixtamalizado.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card-gastronomia h-100">
+            <div class="image-wrapper">
+              <img src="../assets/tlayuda.jpg" class="card-img-top" alt="img-tlayuda">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title text-center fw-bold fs-3 m-3">Tlayuda</h3>
+              <p class="card-text  p-gastro">Son exclusivas de Oaxaca y uno de sus platos más populares. Tlayuda es
+                en
+                realidad el nombre que se le da a la gran tortilla de maíz; sin duda un manjar oaxaqueño.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <!-- Termina carrusel menor a 768px -->
 
   <footer class="footer">
+
     <div>
       <img class="footer-logo" src="../assets/img-footer.png " alt="imagenfooter">
     </div>
@@ -98,21 +370,21 @@
       </div>
 
       <div class="redes">
-        <a class="footer-link" href="https://www.facebook.com/mexicodesconocido" target="_blank">
-          <img class="footer-link-images" src="../assets/logo-facebook.png" alt="logo-facebook">
-        </a>
-
         <a class="footer-link" href="https://www.instagram.com/mexicodesconocido/" target="_blank">
           <img class="footer-link-images" src="../assets/instagram_logo1.svg.png" alt="logoinstagram">
         </a>
 
+        <a class="footer-link" href="https://www.facebook.com/mexicodesconocido" target="_blank">
+          <img class="footer-link-images" src="../assets/facebook-logo2.png" alt="logo-facebook">
+        </a>
+
         <a class="footer-link" href="https://www.tiktok.com/@mexicodesconocido?lang=es" target="_blank">
-          <img class="footer-link-images" src="../assets/logo-tiktok.png" alt="logotiktok">
+          <img class="footer-link-images" src="../assets/tiktok-img2.png" alt="logotiktok">
         </a>
       </div>
       <div>
         <a class="mapa-sitio" href="../pages/mapa-del-sitio.html">Mapa del Sitio</a>
-    </div>
+      </div>
     </div>
 
   </footer>
